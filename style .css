@@ -99,28 +99,74 @@ hr{
 }
 
 .column1{
+    animation: height1 0.5s ease-out 0.15s;
     height: 20px;
+}
 
+@keyframes height1 {
+    from{ height: 0;}
+    to { height: 20px;}
 }
 
 .column2{
+    animation: height2 0.5s ease-out 0.15s;
     height: 50px;
 }
+
+@keyframes height2 {
+    from{ height: 0;}
+    to { height: 50px;}
+}
+
 .column3{
+    animation: height3 0.5s ease-out 0.15s;
     height: 80px;
     background-color: var(--Cyan);
 }
+
+@keyframes height3 {
+    from{ height: 0;}
+    to { height: 80px;}
+}
+
 .column4{
+    animation: height4 0.5s ease-out 0.15s;
     height: 25px;
 }
+
+@keyframes height4 {
+    from{ height: 0;}
+    to { height: 25px;}
+}
+
 .column5{
+    animation: height5 0.5s ease-out 0.15s;
     height: 50px;
 }
+
+@keyframes height5 {
+    from{ height: 0;}
+    to { height: 50px;}
+}
+
 .column6{
+    animation: height6 0.5s ease-out 0.15s;
     height: 50px;
 }
+
+@keyframes height6 {
+    from{ height: 0;}
+    to { height: 50px;}
+}
+
 .column7{
+    animation: height7 0.5s ease-out 0.15s;
     height: 26px;
+}
+
+@keyframes height7 {
+    from{ height: 0;}
+    to { height: 26px;}
 }
 
 .column:hover{
@@ -159,6 +205,14 @@ h6{
 
 .id p{
     color: white;
+}
+
+.c{
+    transition: all 1s;
+}
+
+.c:hover .id{
+    display: block;
 }
 
 
